@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="CSS/register.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/102326e940.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="register" >
+        <form action="" method="post" onsubmit="signUp(event)">
+            <i class="fa fa-user users" aria-hidden="true"></i>
+            <input type="text" name="fname" id="fname" placeholder="FIRST NAME"> <br><br>
+            <i class="fa fa-user users" aria-hidden="true"></i>
+            <input type="text" name="lname" id="lname" placeholder="LAST NAME"> <br><br>
+            <i class="fa fa-envelope-o users" aria-hidden="true"></i>
+            <input type="email" name="email" id="email" placeholder="EMAIL"> <br><br>
+            <i class="fa fa-key users" aria-hidden="true"></i>
+            <input type="password" name="pwd" id="pwd" placeholder="PASSWORD"> <br><br>
+            <i class="fa fa-phone users" aria-hidden="true"></i>
+            <input type="number" name="phone" id="phone" placeholder="PHONE NO"> <br><br>
+            <button id="butsave">sign up</button> <br><br>
+        </form>
+        <p>Already a user? <a href="login.html">login</a></p>
+    </div>
+
+    <script src="JS/register.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+*{
+    margin: 0%;
+    padding:0% ;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assests/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+
+.register
+{
+   text-align:center;
+    bottom: 2;
+}
+.register p
+{
+    font-size: 20px;
+}
+.register a
+{
+    font-size: 20px;
+}
+.register input
+{
+    font-size: medium;
+    height:10px;
+    width: 300px;
+    padding: 25px;
+    color:white;
+    background-color: rgb(0,180,215);
+    border-radius: 10px;
+}
+::placeholder
+{
+    color:white;
+    opacity: 0.7;
+}
+
+.register i.users 
+{
+    position: relative;
+    left:25px;
+}
+input[type=text]{
+    padding: 10px 45x;
+}
+.register button
+{
+    height: 40px;
+    width: 100px;
+    border-radius:10px;
+    background-color: rgb(0,160,210);
+    color: white;
+    font-family: sans-serif;
+    font-size: medium;
+}
